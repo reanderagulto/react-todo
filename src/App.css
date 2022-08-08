@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.todo-controls{
+  margin-bottom: 20px;
+}
