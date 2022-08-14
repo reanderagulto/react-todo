@@ -1,13 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Todo from './Todo';
 import { Button, FormControl, InputLabel, Input } from '@mui/material';
 import './App.css';
-
+import db from './DB'
 
 function App() {
 
-const [ todos, setTodos ] = useState(['Take Dogs for a walk', 'Take the rubbish out', 'Study React']);
+const [ todos, setTodos ] = useState([]);
 const [ input, setInput ] = useState('');
+
+// When the app loads, listen the database and get todos.
+useEffect(() => {
+
+}, []);
 
 const addTodo = (event) => {
   // This will fire off when we click the button 
