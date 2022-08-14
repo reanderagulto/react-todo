@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import Todo from './Todo';
 import { Button, FormControl, InputLabel, Input } from '@mui/material';
 import './App.css';
-import Todo from './Todo';
+
 
 function App() {
 
