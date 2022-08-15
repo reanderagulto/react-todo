@@ -5,7 +5,7 @@ function Todo( props ) {
     <div>
         <li>{ props.text }</li>
     </div>
-  )
+  ) 
 }
 
 export default Todo

@@ -31,8 +31,6 @@ return (
     {
       todos.map(todo => (
         <Todo text={todo}/>
-        
-        // <li>{ todo }</li>
       ))
     }
     </ul>
